@@ -10,12 +10,12 @@ if (isset($_POST['language'])) {$language = $_POST['language'];}
 if (isset($_POST['offers'])) {$offers = $_POST['offers'];}
 $ip = $_SERVER['REMOTE_ADDR'];
 
-$address = "test@ministiralkauz.store";
+$address = "andrewgrechukh123@gmail.com";
 
 $mes = "<span style='font-size: 15px; line-height: 18px;'><b>Имя:</b> $name<br><b>Телефон:</b> $phone<br><b>Оффер:</b> $offer<br><b>Размер:</b> $size<br><b>Страна:</b> $country<br><b>Цена:</b> $price<br><b>Язык:</b> $language<br><b>Товар:</b> $offers<br><b>IP:</b> $ip</span>";
 
 $sub='ЗАЯВКА НАБОР ЮВЕЛИРНЫХ ИЗДЕЛИЙ';
-$emails='info';
+$emails='andrewgrechukh123@gmail.com';
 
 if (empty($phone))
 	{
